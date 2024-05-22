@@ -1,0 +1,61 @@
+:root {
+  font-size: 16px;
+
+  /* Mobile Fonts */
+  --biggest-mobile: 2.75rem;
+  --bigger-mobile: 2rem;
+  --big-mobile: 1.75rem;
+  --h1-mobile: 1.5rem;
+  --h2-mobile: 1.25rem;
+  --h3-mobile: 1rem;
+  --h4-mobile: 0.938rem;
+  --small-mobile: 0.813rem;
+  --smaller-mobile: 0.75rem;
+
+  /* Desktop Fonts */
+  --biggest: 6rem;
+  --bigger: 4rem;
+  --big: 3.5rem;
+  --h1: 2.25rem;
+  --h2: 1.5rem;
+  --h3: 1.25rem;
+  --h4: 1rem;
+  --small: 0.875rem;
+  --smaller: 0.813rem;
+
+  /* Colors */
+  --purple: #8b52ff;
+  --pink: #ff52ae;
+  --black: #000000;
+  --gradient-color: linear-gradient(
+    90deg,
+    rgba(255, 82, 175, 1) 0%,
+    rgba(159, 83, 255, 1) 100%
+  );
+  --white-color: #ffffff;
+
+  /* light mode colors*/
+  --body-color: #f5f0ff;
+  --container-color: #ffffff;
+  --first-color-dark: #1e0849;
+  --first-color-light: #e5d9fd;
+  --text-color-light: #4b3e65;
+  --title-color: #220953;
+
+  /* dark mode colors */
+
+  --dark-body-color: #14092a;
+  --dark-container-color: #372a51;
+  --dark-text-color: #a094b8;
+  --dark-title-color: #d1c0f1;
+  --dark-text-color-light: #a197b4;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
