@@ -1,0 +1,37 @@
+body {
+  background-color: var(--body-color);
+}
+
+.section4 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 3rem 0;
+}
+
+.section4 div:first-child {
+  width: 465px;
+}
+
+.section4 div:first-child h2 {
+  font-size: var(--bigger);
+  text-wrap: wrap;
+  color: var(--title-color);
+}
+
+.section4 div:first-child p {
+  margin: 1.2rem;
+}
+
+.section4 div:first-child button {
+  padding: 1rem 1.5rem;
+  border-radius: 50px;
+  border: none;
+  color: var(--white-color);
+  background-image: var(--gradient-color);
+}
+
+.section4 div:last-child img {
+  width: 580px;
+}
