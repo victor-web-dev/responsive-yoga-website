@@ -141,3 +141,28 @@ body {
   color: var(--white-color);
   text-wrap: nowrap;
 }
+
+.footer {
+  background-color: var(--first-color-dark);
+  color: var(--white-color);
+  padding: 4rem 0;
+}
+
+.footer .footer-heading {
+  font-size: var(--h2);
+  padding-bottom: 2.5rem;
+}
+
+.footer .footer-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer .footer-container p {
+  width: 22ch;
+}
+
+.footer .footer-container section:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
