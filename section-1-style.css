@@ -1,0 +1,219 @@
+/* Section 1 */
+
+.section1 {
+
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 0 10%;
+}
+
+#section-1-content {
+    display: grid;
+    grid-template-areas:
+        "... ... ... ..."
+        "... sec-1-title-area sec-1-img-area ..."
+        "... sec-1-subtitle-area sec-1-img-area ..."
+        "... sec-1-foot-area sec-1-img-area ..."
+        "... ... ... ..."
+    ;
+    justify-content: space-evenly;
+    
+
+}
+
+    /* TITLE */
+
+
+
+#sec-1-title-id {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: var(--title-color);
+    grid-area: sec-1-title-area;
+    font-size: var(--biggest);
+    width: 100%;
+    gap: 2rem;
+}
+
+#sec-1-id-yoga {
+    color: var(--white-color);
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    border-radius: 5%;
+    padding: 0.5rem 0.5rem;
+    background-image: var(--gradient-color);
+    font-size: var(--biggest);
+    transform: rotate(12deg);
+    
+}
+
+#sec-1-id-img-title {
+    box-sizing: border-box;
+    display: block;
+    width: 6rem;
+    height: 6rem;
+}
+
+
+
+    /* SUBTITLE */
+#sec-1-subtitle-id {
+    grid-area: sec-1-subtitle-area;
+    text-align: left;
+    width: 55%;
+    font-size: var(--h4);
+    gap: 2%;
+
+}
+
+#sec-1-subtitle-id button {
+    color: var(--white-color);
+    border: none;
+    border-radius: 50px;
+    padding: 1rem 1.5rem;
+    background-image: var(--gradient-color);
+    font-size: var(--h4);
+}
+
+#sec-1-subtitle-id p {
+    color: var(--text-color-light);
+    padding-bottom: 8vmin;
+    padding-top: 2vmin;
+
+}
+
+
+
+    /* FOOT */
+#sec-1-foot-id {
+    grid-area: sec-1-foot-area;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    padding-top: 8vmin;
+
+}
+
+.sec-1-foot-text {
+    color: var(--text-color-light)
+}
+
+.sec-1-foot-numbers {
+    color: var(--title-color);
+    font-size: var(--big);
+}
+
+
+
+    /* IMG */
+#sec-1-img-id {
+    position: relative;
+    grid-area: sec-1-img-area;
+    width: fit-content;
+    height: fit-content;
+}
+
+#sec-1-img-id img {
+    width: 30vmax;
+    height: 45vmax;
+
+}
+
+
+
+/* MOBILE-SETTINGS */
+@media screen and (max-width: 575px) {
+
+    .section1 {
+        margin: 2% auto;
+        padding: 0 5rem;
+    }
+    
+    #section-1-content {
+        text-align: center;
+        display: grid;
+        grid-template-areas:
+        "... ... ... ..."
+        "... sec-1-title-area sec-1-title-area ..."
+        "... sec-1-subtitle-area sec-1-subtitle-area ..."
+        "... sec-1-foot-area sec-1-foot-area ..."
+        "... sec-1-img-area sec-1-img-area ..."
+        ;
+        width: fit-content;
+        gap: 2%;
+
+
+    }
+
+    .class-text-corrector {
+        text-align: center;
+    }
+
+
+    /* TITLE */
+    #sec-1-title-id {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap    ;
+        font-size: var(--biggest-mobile);
+        justify-self: center;
+        justify-content: space-evenly;
+        width: 100%;
+        gap: 5%;
+    }
+
+
+    #sec-1-id-yoga {
+        display: inline-block;
+        position: relative;
+        font-size: var(--biggest-mobile);   
+    }
+
+    #sec-1-id-img-title {
+        display: block;
+        width: var(--biggest-mobile);
+        height: var(--biggest-mobile);
+    }
+
+
+    /* SUBTITLE */
+    #sec-1-subtitle-id {
+        font-size: var(--h4-mobile);
+        text-align: center;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-self: center;
+        justify-content: space-evenly;
+        width: 18rem;
+    }
+
+    #sec-1-subtitle-id button {
+        font-size: var(--h4-mobile);
+        text-align: center;
+    }
+
+
+
+    /* FOOTER */
+
+    #sec-1-foot-id {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .sec-1-foot-numbers {
+        color: var(--title-color);
+        font-size: var(--biggest-mobile);
+    }
+    
+    .sec-1-foot-text {
+        text-align: center;
+        font-size: var(--h4-mobile);
+    }
+}
