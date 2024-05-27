@@ -6,7 +6,8 @@ body:has(#theme-dark:checked) {
   background-color: var(--dark-body-color);
 }
 
-body:has(#theme-dark:checked) p {
+body:has(#theme-dark:checked) p,
+body:has(#theme-dark:checked) #header-nav-id a {
   color: var(--dark-text-color);
 }
 
