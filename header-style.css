@@ -113,7 +113,7 @@ header {
     align-self: center;
     position: absolute;
     z-index: 2;
-    background-color: var(--container-color);
+    background-color: var(--body-color);
     
 }
 
@@ -129,7 +129,6 @@ header {
     position: absolute;
     z-index: 0;
     opacity: 0;
-    transition-duration: 0.7s;
 }
 
 .mobile-nav-container {
