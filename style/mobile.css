@@ -1,22 +1,22 @@
 @media screen and (max-width: 575px) {
   .section4 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center !important;
+    align-items: center !important;
     width: 100%;
-    padding: 3rem 0;
     flex-direction: column;
     gap: 2rem;
   }
 
   .section4 div:first-child {
+    width: 100% !important;
     text-align: center;
   }
 
   .section4 div:first-child p {
     padding: 1.2rem;
     width: 36ch;
-    margin: 0 auto;
+    margin: 0 auto !important;
   }
 
   .section4 div:last-child img {
