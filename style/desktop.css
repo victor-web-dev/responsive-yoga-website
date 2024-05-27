@@ -165,6 +165,7 @@ body {
 .footer .footer-container {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 2rem;
 }
 
 .footer .footer-container p {
@@ -175,6 +176,10 @@ body {
 .footer .footer-container section:last-child {
   display: flex;
   justify-content: space-evenly;
+}
+
+.footer .footer-container-bottom {
+  padding-top: 2rem;
 }
 
 .footer .footer-container-bottom .footer-bottom-info {
