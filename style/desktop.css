@@ -145,7 +145,7 @@ body {
 .footer {
   background-color: var(--first-color-dark);
   color: var(--white-color);
-  padding: 4rem 0;
+  padding: 4rem 5rem;
 }
 
 .footer .footer-heading {
@@ -153,16 +153,31 @@ body {
   padding-bottom: 2.5rem;
 }
 
+.footer section:first-child h2 {
+  color: transparent;
+  background-image: var(--gradient-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+}
+
 .footer .footer-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .footer .footer-container p {
   width: 22ch;
+  color: var(--text-color-light);
 }
 
 .footer .footer-container section:last-child {
   display: flex;
   justify-content: space-evenly;
+}
+
+.footer .footer-container-bottom .footer-bottom-info {
+  display: flex;
+  justify-content: space-between;
 }
