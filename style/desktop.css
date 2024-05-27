@@ -2,6 +2,10 @@ body {
   background-color: var(--body-color);
 }
 
+body:has(#theme-dark:checked) {
+  background-color: var(--dark-body-color);
+}
+
 .section4 {
   display: flex;
   justify-content: space-evenly;
