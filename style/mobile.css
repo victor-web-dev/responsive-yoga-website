@@ -13,6 +13,12 @@
     text-align: center;
   }
 
+  .section4 div:first-child h2 {
+    font-size: var(--bigger-mobile) !important;
+    width: 15ch;
+    margin: 0 auto;
+  }
+
   .section4 div:first-child p {
     padding: 1.2rem;
     width: 36ch;
