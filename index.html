@@ -1,155 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" href="./public/favicon.png" type="image/x-icon" />
-  <link rel="stylesheet" href="./base-css.css" />
-  <link rel="stylesheet" href="mobile-test.css">
-  <link rel="stylesheet" href="./header-style.css" />
-  <link rel="stylesheet" href="./section-1-style.css" />
-  <link rel="stylesheet" href="./section-2-style.css" />
-  <link rel="stylesheet" href="./section-3-style.css" />
-  <title>Yoga Website</title>
-</head>
-
-<body>
-
-
-  <header>
-    <div class="header-field">
-      <div id="header-logo-field">
-        <a id="header-text-logo">Yoga</a>
-      </div>
-      <nav id="header-nav-id" aria-label="main navigation">
-        <ul>
-          <li><a class="text-rainbow" href="#">Home</a></li>
-          <li><a href="#">Health</a></li>
-          <li><a href="#">Routine</a></li>
-          <li><a href="#">Follow</a></li>
-        </ul>
-      </nav>
-
-      <!-- MENU TOGGLE -->
-      <nav aria-label="main navigation" class="mobile-nav-container">
-        <input type="checkbox" id="id-mobile-menu-toggle" class="mobile-menu-toggle">
-        <label for="id-mobile-menu-toggle" class="mobile-menu-icon">
-          <img src="assets/img/mobile-nav-light.png" alt="Menu">
-        </label>
-        <ul class="mobile-menu-list">
-          <li><a class="text-rainbow" href="#">Home</a></li>
-          <li><a href="#">Health</a></li>
-          <li><a href="#">Routine</a></li>
-          <li><a href="#">Follow</a></li>
-        </ul>
-      </nav>
-
-      <!-- THEME TRANSITION -->
-      <div id="field-theme-transition">
-        <input type="checkbox" id="theme-dark" class="theme-toggle">
-        <label for="theme-dark" class="toggle-label">
-          <img id="img-moon" src="assets\img\mobile-moon.png">
-          <img id="img-sun" src="assets\img\mobile-sun.png">
-        </label>
-      </div>
-
-    </div>
-
-  </header>
-
-
-  <main>
-
-<!-- SECTION-1 -->
-    <section class="section1">
-      <div id="section-1-content" aria-label="Section 1 Content">
-
-        <div id="sec-1-title-id" aria-label="Section 1 Title">
-          <p class="class-text-corrector">Choose Your</p>
-          <p class="class-text-corrector">Best</p>
-          <div id="sec-1-id-yoga"><p>Yoga</p></div>
-          <img id="sec-1-id-img-title" src="assets\img\home-star.png">
-          <p>Teacher</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./public/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./base-css.css" />
+    <link rel="stylesheet" href="./style/mobile.css" />
+    <link rel="stylesheet" href="./style/desktop.css" />
+    <link rel="stylesheet" href="mobile-test.css" />
+    <link rel="stylesheet" href="./header-style.css" />
+    <link rel="stylesheet" href="./section-1-style.css" />
+    <link rel="stylesheet" href="./section-2-style.css" />
+    <link rel="stylesheet" href="./section-3-style.css" />
+    <title>Yoga Website</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-field">
+        <div id="header-logo-field">
+          <a id="header-text-logo">Yoga</a>
         </div>
+        <nav id="header-nav-id" aria-label="main navigation">
+          <ul>
+            <li><a class="text-rainbow" href="#">Home</a></li>
+            <li><a href="#">Health</a></li>
+            <li><a href="#">Routine</a></li>
+            <li><a href="#">Follow</a></li>
+          </ul>
+        </nav>
 
-        <div id="sec-1-subtitle-id" aria-label="Section 1 SubTitle">
-          <img src="assets\img\home-circle.png">
-          <p class="class-text-corrector">Calm your mind and body with the best yoga teachers available, relax your day and stay positive.</p>
-          <button id="sec-1-subtitle-button " type="button">
-            Get Started Free →
-          </button>
+        <!-- MENU TOGGLE -->
+        <nav aria-label="main navigation" class="mobile-nav-container">
+          <input
+            type="checkbox"
+            id="id-mobile-menu-toggle"
+            class="mobile-menu-toggle"
+          />
+          <label for="id-mobile-menu-toggle" class="mobile-menu-icon">
+            <img src="assets/img/mobile-nav-light.png" alt="Menu" />
+          </label>
+          <ul class="mobile-menu-list">
+            <li><a class="text-rainbow" href="#">Home</a></li>
+            <li><a href="#">Health</a></li>
+            <li><a href="#">Routine</a></li>
+            <li><a href="#">Follow</a></li>
+          </ul>
+        </nav>
+
+        <!-- THEME TRANSITION -->
+        <div id="field-theme-transition">
+          <input type="checkbox" id="theme-dark" class="theme-toggle" />
+          <label for="theme-dark" class="toggle-label">
+            <img id="img-moon" src="assets\img\mobile-moon.png" />
+            <img id="img-sun" src="assets\img\mobile-sun.png" />
+          </label>
         </div>
+      </div>
+    </header>
+    <main>
+      <!-- SECTION-1 -->
+      <section class="section1">
+        <div id="section-1-content" aria-label="Section 1 Content">
+          <div id="sec-1-title-id" aria-label="Section 1 Title">
+            <p class="class-text-corrector">Choose Your</p>
+            <p class="class-text-corrector">Best</p>
+            <div id="sec-1-id-yoga"><p>Yoga</p></div>
+            <img id="sec-1-id-img-title" src="assets\img\home-star.png" />
+            <p>Teacher</p>
+          </div>
 
-        <div id="sec-1-foot-id" aria-label="Setion 1 Foot">
+          <div id="sec-1-subtitle-id" aria-label="Section 1 SubTitle">
+            <img src="assets\img\home-circle.png" />
+            <p class="class-text-corrector">
+              Calm your mind and body with the best yoga teachers available,
+              relax your day and stay positive.
+            </p>
+            <button id="sec-1-subtitle-button " type="button">
+              Get Started Free →
+            </button>
+          </div>
+
+          <div id="sec-1-foot-id" aria-label="Setion 1 Foot">
+            <div>
+              <p class="sec-1-foot-numbers">300+</p>
+              <p class="sec-1-foot-text">Yoga Class</p>
+            </div>
+            <div>
+              <p class="sec-1-foot-numbers">40+</p>
+              <p class="sec-1-foot-text">Participants</p>
+            </div>
+          </div>
+
+          <div id="sec-1-img-id" aria-label="Section 1 Image">
+            <img src="assets\img\section1-yoga.png" />
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION-2 -->
+      <section class="section2">
+        <div id="section-2-content" aria-label="Section 2 Content">
           <div>
-            <p class="sec-1-foot-numbers">300+</p>
-            <p class="sec-1-foot-text">Yoga Class</p>
+            <p id="section-2-number">#01</p>
+          </div>
+
+          <div>
+            <img id="section-2-img-field" src="assets\img\section2-yoga.png" />
           </div>
           <div>
-            <p class="sec-1-foot-numbers">40+</p>
-            <p class="sec-1-foot-text">Participants</p>
+            <img src="assets\img\liststar-2-img.png" />
+            <p id="section-2-text">
+              Get a list of specific influencers in your niche at your
+              fingertips so you can focus on managing your status.
+            </p>
+          </div>
+          <div id="sec-2-img-button-container">
+            <button class="sec-2-text-rainbow" type="button">Next →</button>
+            <img
+              id="sec-2-img-container"
+              src="assets\img\list-ellipse-img.png"
+            />
           </div>
         </div>
+      </section>
 
-        <div id="sec-1-img-id" aria-label="Section 1 Image">
-          <img src="assets\img\section1-yoga.png">
+      <!-- SECTION-3 -->
+      <section class="section3">
+        <div id="section-3-content" aria-label="Section 3 Content">
+          <div id="section-3-img-field">
+            <img src="assets\img\section3-yoga.png" />
+          </div>
+          <div id="section-3-text">
+            <p id="section-3-title">Bring Happiness To Good Health!</p>
+            <p id="section-3-subtitle">
+              If you take care of your good health, take care of your mentality
+              and lead a healthy life with positive thoughts every day.
+            </p>
+            <button id="section-3-button" type="button">Let's start →</button>
+          </div>
         </div>
-      </div>
+      </section>
+      <!-- ate aqui -->
 
-    </section>
-
-<!-- SECTION-2 -->
-    <section class="section2">
-      <div id="section-2-content" aria-label="Section 2 Content">
+      <section class="section4">
         <div>
-          <p id="section-2-number">#01</p>
-        </div>
-
-        <div>
-          <img id="section-2-img-field" src="assets\img\section2-yoga.png">
-        </div>
-        <div>
-          <img src="assets\img\liststar-2-img.png">
-          <p id="section-2-text">Get a list of specific influencers in your niche
-            at your fingertips so you can focus on managing your status.
+          <h2>Anytime, Any Place, Any Workout</h2>
+          <p>
+            Take your routine at any time of your day, with the new videos and
+            with the teachers who will guide you.
           </p>
+          <div>
+            <button>Get Started Free →</button>
+          </div>
         </div>
-        <div id="sec-2-img-button-container">
-          <button class="sec-2-text-rainbow" type="button">
-            Next →
-          </button>
-          <img id="sec-2-img-container" src="assets\img\list-ellipse-img.png">
+        <div>
+          <img src="./assets/img/section4-yoga.png" alt="" />
         </div>
-      </div>
-    </section>
+      </section>
+      <section class="section5">
+        <div class="section5-txt-img">
+          <div>
+            <img src="./assets/img/follow-yoga-1.png" alt="" />
+          </div>
+          <div>
+            <h2>Follow Us On Instagram <span>#YOGA</span></h2>
+            <button>Follow →</button>
+          </div>
+          <div>
+            <img src="./assets/img/follow-yoga-2.png" alt="" />
+          </div>
+        </div>
+        <div class="section5-dbl-img">
+          <div>
+            <img src="./assets/img/follow-yoga-3.png" alt="" />
+          </div>
+          <div>
+            <img src="./assets/img/follow-yoga-4.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="section5-mobile">
+        <div>
+          <h2>Follow Us On Instagram <span>#YOGA</span></h2>
+          <button>Follow →</button>
+        </div>
+        <div class="section5-txt-img-mobile">
+          <div>
+            <img src="./assets/img/follow-yoga-1.png" alt="" />
+          </div>
+          <div>
+            <img src="./assets/img/follow-yoga-2.png" alt="" />
+          </div>
+        </div>
+        <div class="section5-dbl-img-mobile">
+          <div>
+            <img src="./assets/img/follow-yoga-3.png" alt="" />
+          </div>
+          <div>
+            <img src="./assets/img/follow-yoga-4.png" alt="" />
+          </div>
+        </div>
+      </section>
 
-<!-- SECTION-3 -->
-    <section class="section3">
-      <div id="section-3-content" aria-label="Section 3 Content">
-        <div id="section-3-img-field">
-          <img src="assets\img\section3-yoga.png">
-        </div>
-        <div id="section-3-text">
-          <p id="section-3-title">Bring Happiness To
-            Good Health!</p>
-          <p id="section-3-subtitle">
-            If you take care of your good health, 
-            take care of your mentality and lead a
-            healthy life with positive
-            thoughts every day.
+      <section class="section6">
+        <div>
+          <h3>Join our newsletter</h3>
+          <p>
+            Subscribe to our newsletter to be aware of many things on discounts,
+            gifts, training and much more. Just enter your email.
           </p>
-          <button id="section-3-button" type="button">Let's start →</button>
+          <div>
+            <input
+              type="email"
+              name=""
+              id=""
+              placeholder="For latest update send mail"
+            />
+            <button>Subscribe →</button>
+          </div>
         </div>
-      </div>
-    </section> <!-- ate aqui -->
-
-
-    <section class="section4"></section>
-    <section class="section5"></section>
-    <section class="section6"></section>
-  </main>
-  <footer></footer>
-</body>
-
+      </section>
+    </main>
+    <footer class="footer">
+      <article class="footer-container">
+        <section>
+          <h2 class="footer-heading">Yoga</h2>
+          <p>
+            Take care of your health and your mind with the best Yoga classes.
+          </p>
+        </section>
+        <section>
+          <div>
+            <h3 class="footer-heading">Address</h3>
+            <p>12345 M/01 Sol Avenue, Lima, Peru</p>
+          </div>
+          <div>
+            <h4 class="footer-heading">Contact</h4>
+            <div>
+              <p>+123 456 7890</p>
+              <p>yoga@email.com</p>
+            </div>
+          </div>
+          <div>
+            <h5 class="footer-heading">Office</h5>
+            <div>
+              <p>Monday - Saturday</p>
+              <p><time>9AM</time> - <time>10PM</time></p>
+            </div>
+          </div>
+        </section>
+      </article>
+      <hr />
+      <section class="footer-container-bottom">
+        <div class="footer-bottom-info">
+          <div>
+            <img
+              src="./assets/img/ri_facebook-circle-line.png"
+              alt="facebook icon"
+            />
+            <img
+              src="./assets/img/ri_instagram-line.png"
+              alt="instagram logo"
+            />
+            <img src="./assets/img/ri_twitter-line.png" alt="twitter logo" />
+            <img src="./assets/img/ri_youtube-line.png" alt="youtube logo" />
+          </div>
+          <div>
+            <p>&copy; Copyright Bedimcode. All rights reserved</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>
